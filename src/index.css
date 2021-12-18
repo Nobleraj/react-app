@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.data-item-cell{
+  display: table-cell;
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  letter-spacing: 0.01071em;
+  vertical-align: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 24px 6px 16px;
+}
+
+.MuiInput-input{
+ font-size: 15px!important;
+}
+
+.MuiInput-underline:before{
+  border-bottom: none!important;
+}
+.MuiInput-underline:after{
+  border-bottom: none!important;
+}
+.MuiTableRow-head > th:nth-child(2){
+  width: 130px;
+}
+.MuiTableCell-head{
+  font-weight: 600!important;
+}
+.MuiTableRow-root{
+  background-color: white;
+}
+#react-admin-title{
+  font-size: 18px!important;
+}

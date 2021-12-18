@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { Admin, Resource,Title } from 'react-admin';
 import restProvider from 'ra-data-simple-rest';
 import { Grid, PostIcon } from '../components/DataGrid';
